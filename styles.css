@@ -15,7 +15,8 @@ body {
 /* HEADER and NAVBAR CSS */
 .header {
   width: 100%;
-background-color: white;  /* 
+  background-color: rgb(255, 242, 191); 
+  /* 
   background: linear-gradient(
     90deg,
     white 23%,
