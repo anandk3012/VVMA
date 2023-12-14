@@ -15,8 +15,7 @@ body {
 /* HEADER and NAVBAR CSS */
 .header {
   width: 100%;
-  background-color: rgb(255, 242, 191);
-  /* 
+background-color: white;  /* 
   background: linear-gradient(
     90deg,
     white 23%,
@@ -37,7 +36,7 @@ header {
   margin-top: 10px;
   border-radius: 13px;
   box-shadow: 1px 1px 6px rgb(0, 0, 0, 0.7);
- background-color: rgb(255, 242, 191);
+  background-color: rgb(255, 242, 191);
   backdrop-filter: blur(62px);
 }
 
@@ -71,7 +70,7 @@ header {
 .cards {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
   border-radius: 13px;
- background-color: rgb(255, 242, 191);
+  background-color: rgb(255, 242, 191);
   backdrop-filter: blur(62px);
 }
 .insta {
