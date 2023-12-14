@@ -9,3 +9,6 @@
 //         }
 //     },600)
 // })
+$( document ).ready(function() {
+    new WOW().init();
+  });

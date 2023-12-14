@@ -2,21 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: cursive;
+  font-family: "Poppins", sans-serif;
 }
 body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
- background-color: rgb(255, 242, 191);
+  background-color: white;
 }
 
 /* HEADER and NAVBAR CSS */
 .header {
   width: 100%;
-  background-color:#eede76;
-/* 
+  background-color: rgb(255, 242, 191);
+  /* 
   background: linear-gradient(
     90deg,
     white 23%,
@@ -32,59 +32,53 @@ header {
   /* font-size: 1.1rem; */
 }
 
-
-
-/* ABOUT CSS */ 
-#about{
+/* ABOUT CSS */
+#about {
   margin-top: 10px;
   border-radius: 13px;
-  box-shadow: 1px 1px 6px rgb(0, 0, 0,0.7); 
-  background-color: white;
+  box-shadow: 1px 1px 6px rgb(0, 0, 0, 0.7);
+ background-color: rgb(255, 242, 191);
   backdrop-filter: blur(62px);
 }
 
-
 /* ACTIVITIES CAROUSEL CSS */
-.carousel{
+.carousel {
   width: 60%;
   margin-bottom: 10px;
 }
-.carousel{
+.carousel {
   width: 60%;
   margin-bottom: 10px;
 }
-@media screen and  (max-width:800px){
-  .carousel{
+@media screen and (max-width: 800px) {
+  .carousel {
     width: 90%;
     margin-bottom: 10px;
   }
 }
-.opabg{
-  background-color: rgba(0, 0, 0,0.6);
+.opabg {
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   backdrop-filter: blur(62px);
 }
 
-
 /* SOCIAL MEDIA LINKS CSS */
-#row{
+#row {
   display: flex;
   justify-content: space-evenly;
-  gap:3px;
+  gap: 3px;
 }
-.cards{
-  box-shadow: 1px 1px 6px rgba(0, 0, 0,0.7);
+.cards {
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
   border-radius: 13px;
-  background-color: white;
+ background-color: rgb(255, 242, 191);
   backdrop-filter: blur(62px);
-
-
 }
-.insta{
+.insta {
   background-color: rgb(230, 14, 122);
   color: white;
 }
-.insta:hover{
+.insta:hover {
   background-color: rgb(206, 13, 110);
   color: white;
 }
