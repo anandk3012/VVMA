@@ -83,3 +83,11 @@ header {
   background-color: rgb(206, 13, 110);
   color: white;
 }
+@media screen and (max-width:450px){
+  #about{
+    width:80%;
+  }
+  .cards{
+    width:80%;
+  }
+}
